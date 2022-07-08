@@ -67,6 +67,7 @@ public class GameField extends JPanel implements ActionListener {
                 appleX[i] = new Random().nextInt(20)*DOT_SIZE;
                 appleY[i] = new Random().nextInt(20)*DOT_SIZE;
                 createApple();
+                // needed
             }
         }
     }
